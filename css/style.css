@@ -6,7 +6,9 @@
   --p-main-color: #757575;
   --links-footer-color: rgba(255, 255, 255, 0.6);
 }
-
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -161,4 +163,20 @@ body {
   cursor: pointer;
   font-family: inherit;
   font-weight: 500;
+}
+.header-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 50px;
+  width: 1600px;
+  height: 80px;
+  background-color: var(--logo-color);
+}
+.nav-main > ul > li > a {
+  width: 254px;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
