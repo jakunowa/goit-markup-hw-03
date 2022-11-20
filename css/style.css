@@ -24,9 +24,8 @@ body {
   position: absolute;
   width: 145px;
   height: 31px;
-  left: 215px;
-  top: 24px;
-  padding-right: 93;
+  padding-left: 215px;
+
   color: inherit;
 }
 
@@ -75,7 +74,19 @@ body {
 .ul-main {
   list-style-type: none;
 }
+.ul-flex {
+  display: flex;
+}
+.li-flex {
+  padding-left: 46px;
+}
+.li-contact {
+  padding-right: 50px;
+}
 
+.nav-main {
+  margin-left: 443px;
+}
 .logo-footer {
   font-family: "Raleway";
   font-style: normal;
@@ -167,16 +178,13 @@ body {
 .header-main {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding-left: 50px;
+  justify-content: flex-start;
+  align-items: center;
+
   width: 1600px;
   height: 80px;
   background-color: var(--logo-color);
 }
-.nav-main > ul > li > a {
-  width: 254px;
-  height: 16px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.contact-position {
+  padding-left: 325px;
 }
