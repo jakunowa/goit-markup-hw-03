@@ -8,6 +8,8 @@
 }
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -21,12 +23,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  position: absolute;
   width: 145px;
   height: 31px;
-  padding-left: 215px;
-
   color: inherit;
+  margin-right: 93px;
 }
 
 .logo-primary {
@@ -36,6 +36,12 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
+  width: 696px;
+  height: 120px;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .h2-main {
@@ -74,19 +80,7 @@ body {
 .ul-main {
   list-style-type: none;
 }
-.ul-flex {
-  display: flex;
-}
-.li-flex {
-  padding-left: 46px;
-}
-.li-contact {
-  padding-right: 50px;
-}
 
-.nav-main {
-  margin-left: 443px;
-}
 .logo-footer {
   font-family: "Raleway";
   font-style: normal;
@@ -156,6 +150,7 @@ body {
 .footer-main {
   background-color: var(--main-background-color);
   color: var(--logo-color);
+  display: ;
 }
 .button-main {
   cursor: pointer;
@@ -175,16 +170,55 @@ body {
   font-family: inherit;
   font-weight: 500;
 }
-.header-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+.container {
+  width: 1200px;
 
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.container-flex {
+  display: flex;
+  align-items: center;
+}
+.ul-flex {
+  display: flex;
+}
+.nav-main {
+  display: flex;
+}
+.li-flex {
+  padding-right: 32px;
+}
+.li-contact {
+  margin-left: 371px;
+}
+.section-main {
+  height: 600px;
+  width: 1600px;
+
+  background-color: var(--main-background-color);
+  color: var(--logo-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-secondary {
+  display: flex;
+}
+.ul-flex {
+  display: flex;
+}
+.section-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
   width: 1600px;
   height: 80px;
-  background-color: var(--logo-color);
-}
-.contact-position {
-  padding-left: 325px;
 }

@@ -22,25 +22,26 @@
     />
   </head>
   <body>
-    <header class="header-main">
-      <a class="logo-main a-main" href="index.html"
-        ><span class="logo-primary"> Web</span>Studio</a
-      >
-
-      <nav class="nav-main">
-        <ul class="ul-main ul-flex">
+    <header>
+      <div class="container container-flex">
+        <a class="logo-main a-main" href="index.html"
+          ><span class="logo-primary"> Web</span>Studio</a
+        >
+        <nav class="nav-main">
+          <ul class="ul-main ul-flex">
+            <li class="li-flex">
+              <a class="links active a-main" href="index.html">Agencja</a>
+            </li>
+            <li class="li-flex">
+              <a class="links a-main" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="li-flex">
+              <a class="links a-main" href="#">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="ul-main ul-flex li-contact">
           <li class="li-flex">
-            <a class="links active a-main" href="index.html">Agencja</a>
-          </li>
-          <li class="li-flex">
-            <a class="links a-main" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="li-flex"><a class="links a-main" href="#">Kontakt</a></li>
-        </ul>
-      </nav>
-      <div>
-        <ul class="ul-main ul-flex contact-position">
-          <li class="li-contact">
             <a class="links a-main" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
@@ -53,12 +54,14 @@
     </header>
     <main>
       <!-- About Us-->
-      <section>
-        <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="button-main" type="button">Zamów usługe</button>
+      <section class="section-main">
+        <div class="container">
+          <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button class="button-main" type="button">Zamów usługe</button>
+        </div>
       </section>
-      <section>
-        <ul class="ul-main">
+      <section class="section-secondary container">
+        <ul class="ul-main ul-flex">
           <li>
             <h3 class="h3-main">LOREM IPSUM</h3>
             <p class="p-main">
@@ -89,7 +92,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section-about container">
         <h2 class="h2-main">Czym się zajmujemy</h2>
         <ul class="ul-main">
           <li>
