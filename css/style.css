@@ -172,13 +172,13 @@ body {
 }
 .container {
   width: 1200px;
-
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 215px;
-  padding-right: 215px;
 }
-
+.flex-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .container-flex {
   display: flex;
   align-items: center;
@@ -201,10 +201,6 @@ body {
 
   background-color: var(--main-background-color);
   color: var(--logo-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .section-secondary {
   display: flex;
