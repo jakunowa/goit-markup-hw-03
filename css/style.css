@@ -87,7 +87,6 @@ body {
   font-size: 16px;
   line-height: 1.88;
   color: var(--p-main-color);
-  padding-bottom: 30px;
 }
 .a-main {
   text-decoration: none;
@@ -270,7 +269,8 @@ header {
   display: flex;
 }
 .section {
-  padding: 94px 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .figure-team {
   background: #ffffff;
